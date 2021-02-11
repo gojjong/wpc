@@ -1,0 +1,88 @@
+
+body{
+	background-image: url(../image/flor.jpg);
+}
+
+.title{
+	text-align: center;
+	padding: 0 0.6em;
+	background:cornsilk;
+	margin: 30px 100px;
+	padding: 60px 10px;
+	z-index: 1;
+	
+}
+
+
+h1{
+	text-align: center;
+	color:#b1c0b2 ;
+	font-family:'Playfair Display', serif ;
+	font-style: italic;
+	font-size: 10vw;
+	text-transform: uppercase;
+	margin: 40px 100px;
+	padding: 0.3em 0 0.2em;
+	transition: color 0.8s;
+	border:#b1c0b2;
+	border-style: double;
+}
+
+h1:hover{
+	color:darkred;
+	border: darkred;
+	border-style: solid;
+	
+	
+	transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+	transition: border 1.5s;
+}
+
+a {
+	text-decoration: none;
+}
+a p{
+	font-family:fantasy;
+	font-style: italic;
+	color: darkred;
+	font-weight: 900;
+	font-size: 2.5vw;
+	 display: block;
+	margin: 0;
+}
+
+.course{
+	text-align: center;
+	
+	background:cornsilk;
+	margin: 30px 100px;
+	
+	z-index: 1;
+	border: darkred double;
+	
+}
+
+h2 {	text-align: center;
+	color:darkred;
+	font-family:'Playfair Display', serif ;
+	font-style: italic;
+	font-size: 2.8vw;
+	text-transform: uppercase;
+
+}
+
+.name{
+	font-family: 'Playfair Display', serif ;
+	font-style:oblique;
+	font-size: 1.6vw;
+}
+.description{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 1.3vw;
+}
+
+ 
+
+
+
+
