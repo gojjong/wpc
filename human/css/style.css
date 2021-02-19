@@ -1,0 +1,190 @@
+body{
+    background-image: url(../image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.header{
+ 
+    text-align: center;
+    margin: 1% 36%;
+}
+
+.header h1{
+    background-color:mediumblue;
+    color: mintcream;
+    border-radius: 46%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 5vw;
+}
+
+.subheader{
+    background-color: mintcream;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    margin-top: -2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    border: mediumblue solid;
+}
+
+.information{
+    padding-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 1.3vw;
+}
+.guide{
+    padding-bottom: 1%;
+    font-weight: 400;
+    font-size: 2vw;
+    color: mediumblue;
+}
+
+.adult{
+    display: none;
+    text-align: center;
+}
+
+.adult h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 7vw;
+    text-align: center;
+    color: yellow;
+}
+
+.adult p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    color: yellow;
+    border: yellow solid;
+    margin-top: -2%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.img img{
+    max-width: 400px;
+}
+
+.teenager{
+    display: none;
+    text-align: center;
+}
+
+#teentitle img{
+    max-width: 400px;
+}
+
+
+
+.teenager p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    color: black;
+    border: black solid;
+    
+   margin: 5% 10%;
+}
+
+.infant{
+    display: none;
+    text-align: center;
+}
+
+.infant h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    font-size: 10vw;
+    text-align: center;
+    color:navajowhite;
+}
+
+.infant p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 4vw;
+    color: pink;
+    border: pink solid;
+    margin-top: -2%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+
+
+@media( max-width: 1068px){
+
+    body{ background-image: url(../image/bg3.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;}
+
+
+        .header h1{ background-color: purple;
+            color: white;
+            }
+        .subheader{border: purple solid;}
+        .guide{color: purple;}
+
+    .adult{display: block;}
+
+    .teenager{
+        display: none;
+        text-align: center;
+    }
+
+    .infant{display:none}
+
+  
+}
+
+@media( max-width: 788px){
+
+    body{ background-image: url(../image/bg4.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;}
+
+       .subheader{display: none;}
+
+       .header h1{ background-color: yellow;
+    color: black;
+    }
+    .adult{
+        display: none;
+        text-align: center;
+    }
+
+    .teenager{display: block;}
+    .infant{display:none}
+}
+
+
+
+
+@media( max-width: 548px){
+
+    body{ background-image: url(../image/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;}
+
+        .header h1{ background-color: pink;
+            color: white;
+            }
+    .adult{
+                display: none;
+                text-align: center;
+    }
+    .teenager{
+        display: none;
+        text-align: center;
+    }
+    .infant{display:block}
+
+    
+}
