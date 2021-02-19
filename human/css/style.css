@@ -119,7 +119,7 @@ body{
 
 
 
-@media( max-width: 1168px){
+@media( max-width: 1188px){
 
     body{ background-image: url(../image/bg3.jpg);
         background-repeat: no-repeat;
@@ -144,7 +144,7 @@ body{
   
 }
 
-@media( max-width: 888px){
+@media( max-width: 908px){
 
     body{ background-image: url(../image/bg4.jpg);
         background-repeat: no-repeat;
@@ -167,7 +167,7 @@ body{
 
 
 
-@media( max-width: 668px){
+@media( max-width: 688px){
 
     body{ background-image: url(../image/bg1.jpg);
         background-repeat: no-repeat;
