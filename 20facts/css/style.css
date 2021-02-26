@@ -30,7 +30,7 @@ h1{
 	display: grid;
 	background-color:darkred;
     padding: 1.5em;
-	grid-template-columns: 1 1 1 1;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-auto-rows: minmax(200px,auto);
 	align-items: stretch;
 	justify-items: stretch;
