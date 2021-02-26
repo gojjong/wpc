@@ -28,8 +28,6 @@ h1{
 
 .container{
 	display: grid;
-	align-items: stretch;
-	justify-items: stretch;
     color:whitesmoke;
     margin: 4%;
 	background-color:darkred;
@@ -41,6 +39,9 @@ h1{
   }
 
   .block{
+	display: grid;
+	grid-column: auto;
+	grid-row: auto;
 	background-color:black;
 	margin: 0%;
 	text-align: center;
