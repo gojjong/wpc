@@ -1,0 +1,88 @@
+body{
+	background-color: black;
+}
+
+h1{
+	text-align: center;
+	font-size: 10vw;
+	font-family: "Work Sans Regular";
+	padding: 3%;
+	color: white;
+}
+
+div{
+	padding: 2%;
+}
+
+h3{ 
+	font-size:7vw;
+	font-family: "Work Sans BOLD";
+	color: white;
+	padding-bottom: -10%;
+}
+
+a{font-family: "Work Sans Bold";
+color:rgb(216, 216, 216);
+text-transform: uppercase;
+background-color: #479c55;
+border:#479c55 solid ;
+border-radius: 40px;
+text-decoration: none;
+padding: 1%;
+padding-top: -10%;
+font-size: 18px;
+
+
+}
+
+a:hover{
+	color: white;
+	background-color: #43d45b;
+    border:#43d45b solid ;
+	padding: 1.3%;
+}
+
+#floracash{
+	background-image: linear-gradient(to left bottom, #e9d99f, #d4c995, #c0b98c, #adaa82, #9b9a79);
+}
+#lexie{
+background-image: linear-gradient(to left bottom, #717171, #5b5b5b, #454546, #303132, #1d1e1f);
+}
+#cavetown{
+	background-image: linear-gradient(to left bottom, #72ac72, #5f945d, #4d7d49, #3b6735, #295123);
+}
+#toki{
+	background-image: linear-gradient(to left bottom, #cf95e3, #d17aba, #ca6290, #ba4e66, #a34040);
+}
+#wang{background-image: linear-gradient(to left bottom, #aa601c, #8b4a19, #6d3614, #4e240e, #321300);}
+
+.content{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    align-items: flex-start;
+    
+}
+
+.child{
+	padding:30px;
+    align-self: auto;
+}
+
+p{
+	color: white;
+	font-family: "Work Sans Regular";
+	font-size: 1.3em;
+}
+
+.embedded{
+max-width: 50vw;
+	
+}
+
+@media(max-width:720px){
+
+	.content{display: block;}
+}
