@@ -1,0 +1,59 @@
+body{
+	background-color: #1b1b1b;
+}
+header{
+	background-color:#fc6e20;
+	color: white;
+	font-family: "Work Sans Bold";
+	text-align:right;
+	text-transform: uppercase;
+	word-spacing: 40px;
+	margin: 0;
+	padding: 0%;
+	
+}
+header a{
+	text-decoration: none;
+	color: lightgray;
+	font-size: 1.6em;
+	font-kerning: normal;
+}
+
+header a:hover{
+	color: white;
+	text-decoration: underline;
+}
+
+h1{
+	color: #ffe7d0;
+	font-family: "Work Sans Regular";
+	text-align: center;
+	font-size: 4.3em;
+
+}
+h2{
+	color: #fc6e20;
+	font-family: "Work Sans Regular";
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: -3.5%;
+}
+
+p{
+	color: #ffe7d0;
+	font-size: 1.2em;
+	font-family: "Work Sans Light";
+	text-align: center;
+	margin: 2% 18%;
+}
+
+.api iframe{
+	max-width: 70vw;
+	display: block;
+	margin: auto;
+}
+
+.api{
+	border: #fc6e20 solid 1em;
+	margin: 0 15% ;
+}
