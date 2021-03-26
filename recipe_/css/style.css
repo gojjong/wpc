@@ -1,0 +1,49 @@
+body {background-color: #fee0d5;
+	
+}
+.container{
+    display: flex;
+}
+.row{
+    margin: 5%;
+}
+
+.row img{
+    max-width: 40vw;
+    text-align: center;
+    border: #f1c868  15px solid;
+}
+.row1{
+    margin: 3%;
+}
+
+#ingredients{
+    color:#53afee ;
+    display: block;
+}
+#instructions{
+    color:#1f0d3c ;
+    display: block;
+}
+#time{
+    color:#1f0d3c ;
+}
+h1 {
+    font-size: 4em;
+    font-family: "Work Sans Bold";
+	color: #1f0d3c ;
+    text-align: center;
+}
+
+p{
+    color: #53afee ;
+    font-family:"Work Sans Regular" ;
+    font-size: 1.5em;
+    
+}
+
+footer{
+    color: #53afee ;
+    font-family:"Work Sans Regular" ;
+    text-align: center;
+}

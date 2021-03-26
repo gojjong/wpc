@@ -1,0 +1,14 @@
+@font-face{
+    font-family: "Work Sans Regular";
+    src: url('../font/WorkSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: "Work Sans Light";
+    src: url('../font/WorkSans-Light.ttf');
+}
+
+@font-face{
+    font-family: "Work Sans Bold";
+    src: url('../font/WorkSans-SemiBold.ttf');
+}
