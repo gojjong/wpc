@@ -1,0 +1,78 @@
+body{
+    background-image: url(../uncommon_collect/image/bg.jpg);
+}
+img {
+    max-width: 400px;
+}
+
+.img{
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header{
+    margin: 5%;
+    background: #31dae0;
+    border: darkblue groove 1.5em;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+
+.member-image{
+    display: block;
+    /* margin-left: 15%; */
+    margin-top: 10%;
+    text-align: center;
+    vertical-align: middle;
+    
+    max-width: 100%;
+    margin-top: 10%;
+}
+
+.member-container{
+    margin: 5%;
+    background-color: #cdaa79;
+    border: #664c28 groove 1.5em;
+   
+    
+}
+
+.member-description{
+    margin:0 9%;
+}
+
+h1{
+    font-family: "Onepiece";
+    text-align: center;
+    font-size: 4em;
+}
+
+h2{
+    font-family: bodega-serif,serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+p{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+
+footer{
+    font-family: monospace;
+    text-align: center;
+    color: white;
+}
+
