@@ -30,6 +30,7 @@ img {
 .member-container :hover{
     background-color: #c4bb64;
     color: #3f479e;
+    cursor: pointer;
     
 
 }
