@@ -78,6 +78,13 @@ function showMembers() {
         memberImage.classList.add("member-image");
         memberImage.src = member.fields.image[0].url;
         memberContainer.append(memberImage);
+
+            // add event listener to add active class to member container
+        memberContainer.addEventListener("click", function(event) {
+        memberDescription.classList.toggle("active");
+        memberImage.classList.toggle("active");
+        memberIdentity.classList.toggle("active");
+      });
      
     });
   }
