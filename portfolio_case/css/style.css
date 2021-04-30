@@ -1,0 +1,109 @@
+body{
+    background-color: #1a1a1a
+}
+.header{
+    width: 98.8%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-bottom: 3%;
+  
+    
+}
+
+.header p{
+    font-family: 'Work Sans Regular';
+    font-size: 1.3em;
+    color:#0029ff; 
+}
+
+.title{
+   
+    padding: 0.8%;
+}
+
+.title h1{
+    font-family: 'Work Sans Bold';
+    font-size: 5em;
+    color:#ebebef;
+    text-align: center;
+}
+.title h3{
+    font-family: 'Work Sans Regular';
+    font-size: 1.5em;
+    color:#0029ff; 
+    text-align: center;
+    margin-top: -4%;
+}
+
+.flex:hover {
+    -webkit-filter:none;
+    cursor:pointer;
+    color:#0029ff; 
+
+}
+.main{
+    margin: 6% 10%;
+    
+    
+}
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-filter:grayscale(1);
+    color:#ebebef;
+    grid-gap: 3%;
+}
+.img img{max-width: 200%;}
+.img{
+    max-width: 50%;
+}
+.big img{vertical-align: middle;
+    max-width: 80%;}
+.big{
+    max-width: 90%;
+}
+
+.flex h2{
+    font-family: 'Work Sans Regular';
+    font-size: 4em;
+    text-align: center;
+   
+
+}
+
+
+.content{ display: grid;
+    grid-template-columns: 1fr 1fr;
+    color:#ebebef;
+    grid-gap: 10%;
+    margin:3% 10%;
+
+}
+
+
+p{
+    font-family: 'Work Sans Regular';
+    font-size: 1.3em;
+    text-align: left;
+
+}
+a{
+    text-decoration: none;
+}
+a :hover{
+    color: white;
+}
+h4{
+    font-family: 'Work Sans Regular';
+    font-size: 1.8em;
+    text-align: center;
+    color:#0029ff;  
+
+
+}
+h4 :hover{
+    cursor: pointer;
+    color: white;
+}
